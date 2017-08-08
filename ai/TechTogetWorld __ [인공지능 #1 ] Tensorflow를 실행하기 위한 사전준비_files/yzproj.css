@@ -1,0 +1,19 @@
+#yz_a_bot{position:fixed;right:10px;bottom:0;border:1px solid #ccc;border-bottom:0;z-index:10010;}
+html, body{height:100%;margin:0}
+#yz_div{display:block;position:fixed;_position:absolute;top:0;left:0;z-index:10000;width:100%;height:100%}
+#yz_div div.bg{position:absolute;top:0;left:0;width:100%;height:100%;background:#222}
+#yz_div a.title{position:absolute;top:0;left:0;padding:15px;color:#fff;font-size:15px;font-family:tahoma;z-index:10010}
+#yz_div #yt_cont iframe,#yz_div #yt_cont embed,#yz_div #yt_cont object{position:absolute;top:50%;left:50%;width:853px;height:480px;margin-top:-240px;margin-left:-427px;z-index:10010}
+#yz_div #yt_cont img{position:absolute;top:50%;left:50%;z-index:10010}
+#yz_div .grid{position:absolute;right:55px;top:10px;z-index:10010;}
+#yz_div .next{position:absolute;right:23px;top:10px;z-index:10010;}
+#yz_div .prev{position:absolute;right:87px;top:10px;z-index:10010;}
+#yz_div .lwrap{position:absolute;right:12px;top:52px;width:122px;z-index:10020;}
+#yz_div div.dlr{position:absolute;right:0;top:0;width:40%;height:100%;z-index:10005;}
+#yz_div div.dlf{position:absolute;left:0;top:0;width:40%;height:100%;z-index:10005;}
+#yz_div .lwrap .list{width:auto;height:auto}
+#yz_div div.dno{display:none}
+#yz_div .list img{display:block;margin-bottom:10px;cursor:pointer;border:1px solid #444}
+#yz_div .csr{cursor:pointer}
+#yz_div .list img.on{border:1px solid #fafafa}
+#yz_div .list img.last{margin:0}
